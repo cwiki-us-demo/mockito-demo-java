@@ -2,7 +2,6 @@ group 'com.ossez.demo'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
-apply plugin: 'com.google.protobuf'
 apply plugin: 'idea'
 
 sourceCompatibility = 1.8
@@ -27,7 +26,6 @@ buildscript {
         classpath 'com.google.protobuf:protobuf-gradle-plugin:0.8.5'
     }
 }
-
 
 repositories {
     maven {
