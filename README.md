@@ -1,2 +1,0 @@
-# mockito-demo-java
-
